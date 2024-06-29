@@ -8,7 +8,7 @@ module.exports = {
   extends: [
     "plugin:vue/recommended", // 使用Vue官方推荐的ESLint配置
     "eslint:recommended", // 使用ESLint推荐的默认规则
-    "plugin:vue/essential", 
+    "plugin:vue/essential",
     "@vue/prettier" // 使用Vue和Prettier兼容的配置
   ],
   parserOptions: {

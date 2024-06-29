@@ -3,9 +3,10 @@
 </template>
 <script>
 export default {
+  name: "TsComp",
   data() {
     return {
-      ad: [a, o]
+      ad: ["a", "o"]
     }
   },
   mounted() {}
