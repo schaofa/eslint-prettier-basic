@@ -100,5 +100,22 @@ module.exports = {
 ### husky + lint-staged
 
 ```
+1. 安转依赖 npm i husky lint-staged -D
 
+2. package.json  .husky 配置
+   使用 npx husky install  生成 .husky 文件
+```
+
+### 配置 commitlint
+
+```
+1. 安装依赖 npm i @commitlint/config-conventional @commitlint/cli -D
+
+2. 新建文件并自定义 commitlint.config.js  规范
+ module.exports = {
+  extends: ["@commitlint/config-conventional"]
+}
+
+3. package.json  .husky 配置
+   使用 npx husky install  生成 .husky 文件
 ```
